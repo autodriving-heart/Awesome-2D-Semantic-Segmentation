@@ -1,151 +1,123 @@
-## Awesome-2D-Semantic-Segmentation
+## Awesome-2D-Segmentation
 
 本仓库由[公众号【自动驾驶之心】](https://mp.weixin.qq.com/s?__biz=Mzg2NzUxNTU1OA==&mid=2247542481&idx=1&sn=c6d8609491a128233c3c3b91d68d22a6&chksm=ceb80b18f9cf820e789efd75947633aec9d2f1e8b58c29e5051c05a64b21ae63c244d54886a1&token=11182364&lang=zh_CN#rd) 团队整理，欢迎关注，一览最前沿的技术分享！
 
-## 一、语义分割 | Semantic segmentation
 
-#### 综述 survey
 
-A SURVEY ON DEEP LEARNING-BASED ARCHITECTURES FOR SEMANTIC SEGMENTATION ON 2D IMAGES
-
-Image Segmentation Using Deep Learning: A Survey
-
-Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey
-
-A Survey on Label-efficient Deep Segmentation: Bridging the Gap between Weak Supervision and Dense Prediction
-
-Semantic Image Segmentation Two Decades of Research
-
-Survey on Unsupervised Domain Adaptation for Semantic Segmentation for Visual Perception in Automated Driving
-
-A Survey on Semi-Supervised Semantic Segmentation
+## 一、实例分割 | Instance segmentation
 
 #### 全监督方案  Full Supervision Program
 
-ENTROPY-BASED FEATURE EXTRACTION FOR REAL-TIME SEMANTIC SEGMENTATION
+Mask R-CNN
 
-#### 无监督方案  No supervision program
+Cascade R-CNN: High Quality Object Detection and Instance Segmentation
 
-SegSort: Segmentation by Discriminative Sorting of Segments 
+Mask Scoring R-CNN
 
-PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering 
+PointRend: Image Segmentation as Rendering
 
-Unsupervised Learning of Dense Visual Representations 
+Hybrid Task Cascade for Instance Segmentation
 
-Invariant Information Clustering for Unsupervised Image Classification and Segmentation 
+YOLACT Real-time Instance Segmentation
 
-Unsupervised Semantic Segmentation by Contrasting Object Mask Proposals 
+InstaBoost: Boosting Instance Segmentation via Probability Map Guided Copy-Pasting
 
-Autoregressive Unsupervised Image Segmentation
+SOLO: Segmenting Objects by Locations
 
-#### 半监督方案 Semi-supervisory program
+DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution
 
-Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision 
+SOLOv2: Dynamic and Fast Instance Segmentation
 
-Adversarial Learning for Semi-Supervised Semantic Segmentation 
+SCNet: Training Inference Sample Consistency for Instance Segmentation
 
-Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results
+Instances as Queries
 
-Guided Collaborative Training for Pixel-wise Semi-Supervised Learning 
+SOLQ: Segmenting Objects by Learning Queries
 
-PSEUDOSEG: DESIGNING PSEUDO LABELS FOR SEMANTIC SEGMENTATION 
+Conditional Convolutions for Instance Segmentation
 
-Semi-supervised semantic segmentation needs strong, varied perturbations 
+[[code]](https://github.com/aim-uofa/AdelaiDet)
 
-Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning
+PolarMask: Single Shot Instance Segmentation with Polar Representation
+
+[[code]](https://github.com/xieenze/PolarMask)
+
+Mask Encoding for Single Shot Instance Segmentation
+
+[[code]](https://github.com/aim-uofa/AdelaiDet)
+
+E2EC: An End-to-End Contour-based Method for High-Quality High-Speed Instance Segmentation
+
+[[code]](https://github.com/zhang-tao-whu/e2ec)
+
+Sparse Instance Activation for Real-Time Instance Segmentation
+
+[[code]](https://github.com/hustvl/SparseInst)
+
+RefineMask: Towards High-Quality Instance Segmentation with Fine-Grained Features
+
+[[code]](https://github.com/zhanggang001/RefineMask)
+
+Mask Transfiner for High-Quality Instance Segmentation
+
+Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving Object Segmentation
 
 #### 弱监督方案 Weak supervision program
 
-Mining Cross-Image Semantics for Weakly Supervised Semantic Segmentation
+Weakly Supervised Instance Segmentation using Class Peak Response 
 
-Non-Salient Region Object Mining for Weakly Supervised Semantic Segmentation 
+Label-PEnet: Sequential Label Propagation and Enhancement Networks for Weakly Supervised Instance Segmentation 
 
-Leveraging Auxiliary Tasks with Affinity Learning for Weakly Supervised Semantic Segmentation 
+Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations 
 
-Discriminative Region Suppression for Weakly-Supervised Semantic Segmentation 
+Where are the Masks: Instance Segmentation with Image-level Supervision 
 
-Adaptive Affinity Loss and Erroneous Pseudo-Label Refinement for Weakly Supervised Semantic Segmentation 
+Weakly Supervised Instance Segmentation by Deep Community Learning
 
-Context Decoupling Augmentation for Weakly Supervised Semantic Segmentation
+BoxInst: High-Performance Instance Segmentation with Box Annotations
 
-Anti-Adversarially Manipulated Attributions for Weakly Supervised Semantic Segmentation and Object Localization 
+[[code]]()
 
-Pixel Contrastive-Consistent Semi-Supervised Semantic Segmentation 
+Box-supervised Instance Segmentation with Level Set Evolution
 
-Complementary Patch for Weakly Supervised Semantic Segmentation
+[[code]](https://github.com/LiWentomng/boxlevelset)
 
-Background-Aware Pooling and Noise-Aware Loss for Weakly-Supervised Semantic Segmentation 
+Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images
 
-Box-driven Class-wise Region Masking and Filling Rate Guided Loss for Weakly Supervised Semantic Segmentation 
+[[code]](https://github.com/hustvl/BoxCaseg)
 
-BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation 
+DISCOBOX: Weakly Supervised Instance Segmentation and Semantic Correspondence from Box Supervision
 
-Box2Seg: Learning Semantics of 3D Point Clouds with Box-Level Supervision
+[[code]](https://github.com/nvlabs/discobox)
 
-Normalized Cut Loss for Weakly-supervised CNN Segmentation 
+Learning Saliency Propagation for Semi-Supervised Instance Segmentation
 
-Learning random-walk label propagation for weakly-supervised semantic segmentation 
+ContrastMask: Contrastive Learning to Segment Every Thing 
 
-ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation
+Learning to Segment Every Thing 
 
-On Regularized Losses for Weakly-supervised CNN Segmentation
+ShapeMask: Learning to Segment Novel Objects by Refining Shape Priors 
 
-#### 域适应 Domain Adaptation
+Prior to Segment: Foreground Cues forWeakly Annotated Classes in Partially Supervised Instance Segmentation 
 
-.Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training 
+Commonality-Parsing Network across Shape and Appearance for Partially Supervised Instance Segmentation 
 
-Learning Texture Invariant Representation for Domain Adaptation of Semantic Segmentation
+The surprising impact of mask-head architecture on novel class segmentation
 
-DAFormer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation 
 
-DACS: Domain Adaptation via Cross-domain Mixed Sampling 
 
-Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation 
+## 二、传统图像分割 | Traditional Image Segmentation
 
-Dual Path Learning for Domain Adaptation of Semantic Segmentation
+#### 综述 survey
 
-##二、**全景分割** | Panorama split
-
-#### **全监督**方案   Full Supervision Program
-
-Panoptic Feature Pyramid Networks
-
-Panoptic-DeepLab: A Simple, Strong, and Fast Baseline for Bottom-Up Panoptic Segmentation
-
-Per-Pixel Classification is Not All You Need for Semantic Segmentation
-
-EfficientPS: Efficient Panoptic Segmentation
-
-Real-Time Panoptic Segmentation from Dense Detections
-
-Mask2Former：Masked-attention Mask Transformer for Universal Image Segmentation
-
-MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers
-
-K-Net: Towards Unified Image Segmentation
-
-[[Code]](https://github.com/ZwwWayne/K-Net)
-
-CMT-DeepLab: Clustering Mask Transformers for Panoptic Segmentation
-
-k-means Mask Transformer
-
-[[Code]](https://github.com/google-research/deeplab2)
-
-Panoptic-PartFormer: Learning a Unified model for Panoptic Part Segmentation
-
-[[Code]](https://github.com/lxtGH/Panoptic-PartFormer)
-
-RankSeg: Adaptive Pixel Classification with Image Category Ranking for Segmentation
-
-[[Code]](https://github.com/openseg-group/RankSeg)
-
-#### 弱监督方案  Weak supervision program
-
-Toward Joint Thing-and-Stuff Mining for Weakly Supervised Panoptic Segmentation
-
-Weakly- and Semi-Supervised Panoptic Segmentation
-
-#### **最新现代目标分割综述** | Overview
+A comprehensive survey of image segmentation: clustering methods, performance parameters, and benchmark datasets
 
 A Comprehensive Review of Modern Object Segmentation Approaches
+
+## 三、**分割问题优化**  | Segmentation Issues
+
+RefineMask: Towards High-Quality Instance Segmentation with Fine-Grained Features
+
+[[code]](https://github.com/zhanggang001/RefineMask)
+
+Mask Transfiner for High-Quality Instance Segmentation
