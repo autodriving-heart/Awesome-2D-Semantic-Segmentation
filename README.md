@@ -4,9 +4,9 @@
 
 自动驾驶之心是国内首个自动驾驶开发者社区！这里有最全面有效的自动驾驶与AI学习路线（感知/定位/融合）和自动驾驶与AI公司内推机会！
 
-## 一、实例分割 | Instance segmentation
+## 一、Instance segmentation
 
-#### 全监督方案  Full Supervision Program
+#### Full Supervision Program
 
 Mask R-CNN
 
@@ -62,7 +62,7 @@ Mask Transfiner for High-Quality Instance Segmentation
 
 Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving Object Segmentation
 
-#### 弱监督方案 Weak supervision program
+#### Weak supervision program
 
 Weakly Supervised Instance Segmentation using Class Peak Response 
 
@@ -106,15 +106,15 @@ The surprising impact of mask-head architecture on novel class segmentation
 
 
 
-## 二、传统图像分割 | Traditional Image Segmentation
+## 二、Traditional Image Segmentation
 
-#### 综述 survey
+#### survey
 
 A comprehensive survey of image segmentation: clustering methods, performance parameters, and benchmark datasets
 
 A Comprehensive Review of Modern Object Segmentation Approaches
 
-## 三、**分割问题优化**  | Segmentation Issues
+## 三、Segmentation Issues
 
 RefineMask: Towards High-Quality Instance Segmentation with Fine-Grained Features
 
